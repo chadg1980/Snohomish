@@ -17,18 +17,28 @@ public class OtherFoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.business_list);
 
+        //create a list of Other Food businesses
         ArrayList<Business> otherFood = new ArrayList<>();
-        otherFood.add(new Business(R.drawable.otherfood, "Andy's Seafood",
-                "google.com", "(360)862-0782", 4.0f));
-        otherFood.add(new Business(R.drawable.otherfood, "Jake's Cafe",
-                "https://www.facebook.com/JakesCafeSnohomish/?rf=1464704303763479",
-                "(360)563-0896", 5.0f));
-        otherFood.add(new Business(R.drawable.otherfood, "Cabbage Patch Restaurant",
-                "http://www.cabbagepatchrestaurant.com/banquets.html", "(360)568-9091", 4.5f));
-        otherFood.add(new Business(R.drawable.otherfood, "Collector's Choice Restaurant",
-                "http://www.ccrsnohomish.com/", "(360)568-1277", 4.0f));
-        otherFood.add(new Business(R.drawable.otherfood, "The Hungry Pelican",
-                "http://www.yelp.com/", "(360)243-3278", 5.0f));
+        otherFood.add(new Business(R.drawable.otherfood,
+                getString(R.string.andyOtherFoodName),
+                getString(R.string.andyOtherFoodWeb),
+                getString(R.string.andyOtherFoodPhone),
+                4.0f));
+        otherFood.add(new Business(R.drawable.otherfood,
+                getString(R.string.jakeOtherFoodName),
+                getString(R.string.jakeOtherFoodWeb),
+                getString(R.string.jakeOtherFoodPhone),
+                5.0f));
+        otherFood.add(new Business(R.drawable.otherfood,
+                getString(R.string.patchOtherFoodName),
+                getString(R.string.patchOtherFoodWeb),
+                getString(R.string.patchOtherFoodPhone),
+                4.5f));
+        otherFood.add(new Business(R.drawable.otherfood,
+                getString(R.string.choiceOtherFoodName),
+                getString(R.string.choiceOtherFoodWeb),
+                getString(R.string.choiceOtherFoodPhone),
+                4.0f));
 
         //Create an adapter where the data source is the list of Businesses.
         //The adapter knows how to create list items for each item in the list

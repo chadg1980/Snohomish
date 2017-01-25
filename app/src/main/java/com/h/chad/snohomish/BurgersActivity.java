@@ -20,25 +20,31 @@ public class BurgersActivity  extends AppCompatActivity{
         //Create a list of Burger businesses
         ArrayList<Business> burger = new ArrayList<>();
 
-        burger.add(new Business(R.drawable.burgericon, "Pilchuck Drive In",
-                "www.google.com", "(360)568-4413", 4.0f));
-        burger.add(new Business(R.drawable.burgericon, "Burger King",
-                "www.burgerking.com", "(360)568-1578", 2.5f));
-        burger.add(new Business(R.drawable.buzzinn, "Buzz Inn Steakhouse",
-                "http://www.buzzinnsteakhouse.com/", "(360)568-1578", 3.5f));
-        burger.add(new Business(R.drawable.burgericon, "Jack in the Box",
-                "www.jackinthebox.com", "(360)568-6644", 3.0f));
-        burger.add(new Business(R.drawable.burgericon, "King Charley's Drive-In",
-                "www.google.com", "(360)568-2963", 4.5f));
+        burger.add(new Business(R.drawable.burgericon,
+                getString(R.string.pilchuckBurgerName),
+                getString(R.string.pilchuckBurgerWeb),
+                getString(R.string.pilchuckBurgerPhone),
+                4.0f));
+        burger.add(new Business(R.drawable.burgericon,
+                getString(R.string.kingBurgerName),
+                getString(R.string.kingBurgerWeb),
+                getString(R.string.kingBurgerPhone),
+                2.5f));
+        burger.add(new Business(R.drawable.buzzinn,
+                getString(R.string.buzzBurgerName),
+                getString(R.string.buzzBurgerWeb),
+                getString(R.string.buzzBurgerPhone),
+                3.5f));
+        burger.add(new Business(R.drawable.burgericon,
+                getString(R.string.charleyBurgerName),
+                getString(R.string.charleyBurgerWeb),
+                getString(R.string.charleyBurgerPhone),
+                4.5f));
 
         //Create an adapter where the data source is the list of Businesses
         businessAdapter adapter = new businessAdapter(this, burger, R.color.burgerBackground);
 
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
-
-
     }
-
-
 }

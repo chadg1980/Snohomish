@@ -10,4 +10,114 @@
     <string name="tacosTitle">Places to Eat Tacos</string>
     <string name="asianTitle">Places to Eat Asian Food</string>
     <string name="otherTitle">Places to Eat Everything Else</string>
+
+    <!-- PizzaActivity Strings -->
+    <string name="cathousePizzaName">Cathouse Pizza</string>
+    <string name="cathousePizzaWebsite">http://cathousepizza.com/</string>
+    <string name="cathousePizzaPhone">(425)9316050</string>
+
+    <string name="alfysPizzaName">Alfy\'s Pizza</string>
+    <string name="alfysPizzaWebsite">http://www.alfyspizza.com/</string>
+    <string name="alfysPizzaPhone">(360)568-0804</string>
+
+    <string name="nyPizzaName">#1 N.Y. Pizza</string>
+    <string name="nyPizzaWebsite">https://www.facebook.com/1NewYorkPizzeriaSnohomishWa/</string>
+    <string name="nyPizzaPhone">(360)668-7282</string>
+
+    <string name="bravaPizzaName">Brava\'s Pizza</string>
+    <string name="bravaPizzaWebsite">bravaspizza.com</string>
+    <string name="bravaPizzaPhone">(360)862-0900</string>
+
+    <string name="dominoPizzaName">Domino\'s Pizza</string>
+    <string name="dominoPizzaWebsite">http://www.dominos.com</string>
+    <string name="dominoPizzaPhone">(425)379-8000</string>
+
+    <string name="littlePizzaName">Little Ceasars Pizza</string>
+    <string name="littlePizzaWebsite">https://littlecaesars.com/en-us/</string>
+    <string name="littlePizzaPhone">(555)555-1212</string>
+
+    <string name="jetcityPizzaName">Jet City Pizza</string>
+    <string name="jetcityPizzaWebsite">http://www.jetcitypizza.com/</string>
+    <string name="jetcityPizzaPhone">(555)555-1212</string>
+
+    <string name="maltbyPizzaName">Maltby Pizza &amp; Pasta</string>
+    <string name="maltbyPizzaWebsite">http://www.maltbypizza.com/</string>
+    <string name="maltbyPizzaPhone">(360)668-5757</string>
+
+    <!-- Taco Businesses -->
+    <string name="bellTacoName">Taco Bell</string>
+    <string name="bellTacoWeb">http://tacobell.com</string>
+    <string name="bellTacoPhone">(360)563-5503</string>
+
+    <string name="elParaisoTacoName">El Paraiso Mexican Grill</string>
+    <string name="elParaisoTacoWeb">locu.com</string>
+    <string name="elParaisoTacoPhone">(360)568-5406</string>
+
+    <string name="tapatioTacoName">Tapatio Mexican Restaurant</string>
+    <string name="tapatioTacoWeb">yelp.com</string>
+    <string name="tapatioTacoPhone">(360)862-9530</string>
+
+    <string name="todoTacoName">Todo Mexico</string>
+    <string name="todoTacoWeb">http://www.todomexicorestaurants.com/</string>
+    <string name="todoTacoPhone">(360)862-0210</string>
+
+    <string name="ixtapaTacoName">Ixtapa Restaurant</string>
+    <string name="ixtapaTacoWeb">www.google.com</string>
+    <string name="ixtapaTacoPhone">(360)568-4522</string>
+
+    <!-- BurgerActivity Strings -->
+    <string name="pilchuckBurgerName">Pilchuck Drive In</string>
+    <string name="pilchuckBurgerWeb">www.google.com</string>
+    <string name="pilchuckBurgerPhone">(360)568-4413</string>
+
+    <string name="kingBurgerName">Burger King</string>
+    <string name="kingBurgerWeb">www.burgerking.com</string>
+    <string name="kingBurgerPhone">360)568-1578</string>
+
+    <string name="buzzBurgerName">Buzz Inn Steakhouse</string>
+    <string name="buzzBurgerWeb">http://www.buzzinnsteakhouse.com/</string>
+    <string name="buzzBurgerPhone">(360)568-1578</string>
+
+    <string name="charleyBurgerName">King Charley\'s Drive-In</string>
+    <string name="charleyBurgerWeb">http://www.yelp.com/</string>
+    <string name="charleyBurgerPhone">(360)568-2963</string>
+
+    <!-- AsianActivity strings -->
+    <string name="snoTeriyakiAsianFoodName">Snohomih Teriyaki</string>
+    <string name="snoTeriyakiAsainFoodWeb">http://www.yelp.com/</string>
+    <string name="snoTeriyakiAsianPhone">(360)568-2000</string>
+
+    <string name="thaiNaanAsianFoodName">Thai Naan</string>
+    <string name="thaiNaanAsainFoodWeb">http://thainaansnohomish.com/</string>
+    <string name="thaiNaanAsianPhone">(360)568-6426</string>
+
+    <string name="nikoAsianFoodName">Niko Teriyaki</string>
+    <string name="nikoAsainFoodWeb">http://yelp.com/</string>
+    <string name="nikoAsianPhone">(360)568-3190</string>
+
+    <string name="pekingAsianFoodName">Peking Duck</string>
+    <string name="pekingAsainFoodWeb">http://yelp.com/</string>
+    <string name="pekingAsianPhone">(360)568-7634</string>
+
+    <string name="mimosaAsianFoodName">Pho Mimosa</string>
+    <string name="mimosaAsainFoodWeb">http://chownow.com/</string>
+    <string name="mimosaAsianFoodPhone">(360)568-2910</string>
+
+    <!-- OtherFoodActivity Strings -->
+    <string name="andyOtherFoodName">Andy\'s Seafood</string>
+    <string name="andyOtherFoodWeb">google.com</string>
+    <string name="andyOtherFoodPhone">(360)862-0782</string>
+
+    <string name="jakeOtherFoodName">Jake\'s Cafe</string>
+    <string name="jakeOtherFoodWeb">https://www.facebook.com/JakesCafeSnohomish/?rf=1464704303763479</string>
+    <string name="jakeOtherFoodPhone">(360)563-0896</string>
+
+    <string name="patchOtherFoodName">Cabbage Patch Restaurant</string>
+    <string name="patchOtherFoodWeb">http://www.cabbagepatchrestaurant.com/banquets.html</string>
+    <string name="patchOtherFoodPhone">(360)568-9091</string>
+
+    <string name="choiceOtherFoodName">Collector\'s Choice Restaurant</string>
+    <string name="choiceOtherFoodWeb">http://www.ccrsnohomish.com/</string>
+    <string name="choiceOtherFoodPhone">(360)568-1277</string>
+
 </resources>

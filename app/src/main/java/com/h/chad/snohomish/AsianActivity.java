@@ -17,19 +17,33 @@ public class AsianActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.business_list);
 
+        //create a list of Asian Food businesses
         ArrayList<Business> asianFood = new ArrayList<>();
-        asianFood.add(new Business(R.drawable.asianfood, "Snohomih Teriyaki",
-                "google.com", "(360)568-20000", 4.0f));
-        asianFood.add(new Business(R.drawable.asianfood, "Thai Naan",
-                "http://thainaansnohomish.com/", "(360)568-6426", 4.0f));
-        asianFood.add(new Business(R.drawable.asianfood, "Niko Teriyaki",
-                "http://yelp.com/", "(360)568-3190", 3.5f));
-        asianFood.add(new Business(R.drawable.asianfood, "Kami Teriyaki",
-                "http://yelp.com/", "(425)322-4921", 4.0f));
-        asianFood.add(new Business(R.drawable.asianfood, "Peking Duck",
-                "http://yelp.com/", "(360)568-7634", 3.5f));
-        asianFood.add(new Business(R.drawable.asianfood, "Pho Mimosa",
-                "http://chownow.com/", "(360)568-2910", 3.5f));
+        asianFood.add(new Business(R.drawable.asianfood,
+                getString(R.string.snoTeriyakiAsianFoodName),
+                getString(R.string.snoTeriyakiAsainFoodWeb),
+                getString(R.string.snoTeriyakiAsianPhone),
+                4.0f));
+        asianFood.add(new Business(R.drawable.asianfood,
+                getString(R.string.thaiNaanAsianFoodName),
+                getString(R.string.thaiNaanAsainFoodWeb),
+                getString(R.string.thaiNaanAsianPhone),
+                4.0f));
+        asianFood.add(new Business(R.drawable.asianfood,
+                getString(R.string.nikoAsianFoodName),
+                getString(R.string.nikoAsainFoodWeb),
+                getString(R.string.nikoAsianPhone),
+                3.5f));
+        asianFood.add(new Business(R.drawable.asianfood,
+                getString(R.string.pekingAsianFoodName),
+                getString(R.string.pekingAsainFoodWeb),
+                getString(R.string.pekingAsianPhone),
+                3.5f));
+        asianFood.add(new Business(R.drawable.asianfood,
+                getString(R.string.mimosaAsianFoodName),
+                getString(R.string.mimosaAsainFoodWeb),
+                getString(R.string.mimosaAsianFoodPhone),
+                3.5f));
 
         //Create an adapter where the data source is the list of Businesses.
         //The adapter knows how to create list items for each item in the list

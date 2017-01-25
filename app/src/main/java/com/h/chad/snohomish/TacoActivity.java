@@ -16,20 +16,34 @@ public class TacoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.business_list);
-
+        //create a list of Taco businesses
         ArrayList<Business> taco = new ArrayList<>();
-        taco.add(new Business(R.drawable.tacobell, "Taco Bell",
-                "http://tacobell.com", "(360)563-5503", 3.0f));
-        taco.add(new Business(R.drawable.taco, "El Paraiso Mexican Grill",
-                "locu.com", "(360)568-5406", 4.5f));
-        taco.add(new Business(R.drawable.taco, "Tapatio Mexican Restaurant",
-                "yelp.com", "(360)862-9530", 4.0f));
-        taco.add(new Business(R.drawable.taco, "Todo Mexico",
-                "http://www.todomexicorestaurants.com/", "(360)862-0210", 4.0f));
-        taco.add(new Business(R.drawable.taco, "Ixtapa Restaurant",
-                "www.google.com", "(360)568-4522", 4.5f));
-        taco.add(new Business(R.drawable.taco, "Taqueria La Botana",
-                "www.google.com", "(360)568-6578", 4.0f));
+        taco.add(new Business(R.drawable.tacobell,
+                getString(R.string.bellTacoName),
+                getString(R.string.bellTacoWeb),
+                getString(R.string.bellTacoPhone),
+                3.0f));
+        taco.add(new Business(R.drawable.taco,
+                getString(R.string.elParaisoTacoName),
+                getString(R.string.elParaisoTacoWeb),
+                getString(R.string.elParaisoTacoPhone),
+                4.5f));
+        taco.add(new Business(R.drawable.taco,
+                getString(R.string.tapatioTacoName),
+                getString(R.string.tapatioTacoWeb),
+                getString(R.string.tapatioTacoPhone),
+                4.0f));
+        taco.add(new Business(R.drawable.taco,
+                getString(R.string.todoTacoName),
+                getString(R.string.todoTacoWeb),
+                getString(R.string.todoTacoPhone),
+                4.0f));
+        taco.add(new Business(R.drawable.taco,
+                getString(R.string.ixtapaTacoName),
+                getString(R.string.ixtapaTacoWeb),
+                getString(R.string.ixtapaTacoPhone),
+                4.5f));
+
 
         //Create an adapter where the data source is the list of Businesses.
         //The adapter knows how to create list items for each item in the list

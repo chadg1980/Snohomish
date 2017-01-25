@@ -20,23 +20,46 @@ public class PizzaActivity extends AppCompatActivity{
 
         //create a list of Pizza businesses
         ArrayList<Business> pizza = new ArrayList<Business>();
-        pizza.add(new Business(R.drawable.cathouse,  "Cathouse Pizza",
-                "http://cathousepizza.com/", "(425)9316050", 4.4f));
-        pizza.add(new Business(R.drawable.pizzaicon, "Alfy's Pizza",
-                "http://www.alfyspizza.com/", "(360)568-0804", 3.5f));
-        pizza.add(new Business(R.drawable.pizzaicon, "#1 N.Y. Pizza",
-                "https://www.facebook.com/1NewYorkPizzeriaSnohomishWa/", "(360)668-7282", 4.5f));
-        pizza.add(new Business(R.drawable.pizzaicon, "Brava's Pizza",
-                "bravaspizza.com", "(360)862-0900", 4.0f));
-        pizza.add(new Business(R.drawable.pizzaicon, "Domino's Pizza",
-                "http://www.dominos.com", "(425) 379-8000", 4.0f));
-        pizza.add(new Business(R.drawable.pizzaicon, "Little Ceasars Pizza",
-                "https://littlecaesars.com/en-us/", "(555)555-1212", 2.0f));
-        pizza.add(new Business(R.drawable.pizzaicon, "Jet City Pizza",
-                "http://www.jetcitypizza.com/", "(555)555-1212", 4.5f));
-        pizza.add(new Business(R.drawable.pizzaicon, "Maltby Pizza & Pasta",
-                "http://www.maltbypizza.com/", "(360)668-5757", 4.0f));
-
+        pizza.add(new Business(R.drawable.cathouse,
+                getString(R.string.cathousePizzaName),
+                getString(R.string.cathousePizzaWebsite),
+                getString(R.string.cathousePizzaPhone),
+                4.4f));
+        pizza.add(new Business(R.drawable.pizzaicon,
+                getString(R.string.alfysPizzaName),
+                getString(R.string.alfysPizzaWebsite),
+                getString(R.string.alfysPizzaPhone),
+                3.5f));
+        pizza.add(new Business(R.drawable.pizzaicon,
+                getString(R.string.nyPizzaName),
+                getString(R.string.nyPizzaWebsite),
+                getString(R.string.nyPizzaPhone),
+                4.5f));
+        pizza.add(new Business(R.drawable.pizzaicon,
+                getString(R.string.bravaPizzaName),
+                getString(R.string.bravaPizzaWebsite),
+                getString(R.string.bravaPizzaPhone),
+                4.0f));
+        pizza.add(new Business(R.drawable.pizzaicon,
+                getString(R.string.dominoPizzaName),
+                getString(R.string.dominoPizzaWebsite),
+                getString(R.string.dominoPizzaPhone),
+                4.0f));
+        pizza.add(new Business(R.drawable.pizzaicon,
+                getString(R.string.littlePizzaName),
+                getString(R.string.dominoPizzaWebsite),
+                getString(R.string.littlePizzaPhone),
+                2.0f));
+        pizza.add(new Business(R.drawable.pizzaicon,
+                getString(R.string.jetcityPizzaName),
+                getString(R.string.jetcityPizzaWebsite),
+                getString(R.string.jetcityPizzaPhone),
+                4.5f));
+        pizza.add(new Business(R.drawable.pizzaicon,
+                getString(R.string.maltbyPizzaName),
+                getString(R.string.maltbyPizzaWebsite),
+                getString(R.string.maltbyPizzaPhone),
+                4.0f));
 
         //Create an adapter where the data source is the list of Businesses.
         //The adapter knows how to create list items for each item in the list
@@ -49,6 +72,5 @@ public class PizzaActivity extends AppCompatActivity{
 
         //Make the ListView use the businessAdaper created above.
         listView.setAdapter(adapter);
-
     }
 }
