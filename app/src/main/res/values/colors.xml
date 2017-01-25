@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#7CB341</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="appBackground">#B6EAFF</color>
+    <color name="text">#00568D</color>
+    <color name="pizzaBackground">#E12301</color>
+    <color name="burgerBackground">#E1D800</color>
+    <color name="tacoBackground">#95aafe</color>
+    <color name="asianBackground">#8cc15e</color>
+    <color name="otherBackground">#2fa3ef</color>
+    <color name="link">#0000EE</color>
+    <color name="textWhite">#FFFFFF</color>
 </resources>

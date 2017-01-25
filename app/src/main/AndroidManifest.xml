@@ -8,13 +8,27 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".PizzaActivity"
+            android:label="@string/pizzaTitle"/>
+        <activity android:name=".BurgersActivity"
+            android:label="@string/burgerTitle"/>
+        <activity android:name=".TacoActivity"
+            android:label="@string/tacosTitle"/>
+        <activity android:name=".AsianActivity"
+            android:label="@string/asianTitle"/>
+        <activity android:name=".OtherFoodActivity"
+            android:label="@string/otherTitle"/>
     </application>
 
 </manifest>

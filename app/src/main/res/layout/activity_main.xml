@@ -4,10 +4,36 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appBackground"
     tools:context="com.h.chad.snohomish.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    android:id="@+id/mainPizza"
+    style="@style/TitleStyle"
+    android:background="@color/pizzaBackground"
+    android:text="@string/pizza" />
+
+    <TextView
+        android:id="@+id/mainBurger"
+        style="@style/TitleStyle"
+        android:background="@color/burgerBackground"
+        android:text="@string/burgers" />
+
+    <TextView
+        android:id="@+id/mainTacos"
+        style="@style/TitleStyle"
+        android:background="@color/tacoBackground"
+        android:text="@string/tacos" />
+
+    <TextView
+        android:id="@+id/mainAsian"
+        style="@style/TitleStyle"
+        android:background="@color/asianBackground"
+        android:text="@string/asian" />
+    <TextView
+        android:id="@+id/mainOther"
+        style="@style/TitleStyle"
+        android:background="@color/otherBackground"
+        android:text="@string/other" />
 </LinearLayout>

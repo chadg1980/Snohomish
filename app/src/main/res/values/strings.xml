@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Snohomish</string>
+    <string name="app_name">Eat At Snohomish</string>
+    <string name="pizza">Pizza</string>
+    <string name="burgers">Burgers</string>
+    <string name="tacos">Tacos</string>
+    <string name="asian">Asian</string>
+    <string name="other">Other</string>
+    <string name="pizzaTitle">Places to Eat Pizza</string>
+    <string name="burgerTitle">Places to Eat Burgers</string>
+    <string name="tacosTitle">Places to Eat Tacos</string>
+    <string name="asianTitle">Places to Eat Asian Food</string>
+    <string name="otherTitle">Places to Eat Everything Else</string>
 </resources>
